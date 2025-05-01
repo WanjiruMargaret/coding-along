@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Just coding </title>
+
+    <link rel="stylesheet" href="./index.css">
+    <script src="./script.js" defer></script>
+
+</head>
+<body>
+    <h1>Address book</h1>
+    <h2>Places I have been to</h2>
+    <section id="form-section">
+        <form id="PlaceForm">
+        <label for="location">Location</label>
+        <br>
+        <input type="text" placeholder="Location" id="location" required>
+        <br>
+        <label for="landmarks">Landmarks</label>
+        <br>
+        <input type="text" placeholder="Landmarks" id="landmarks">
+        <br>
+        <label for="timeOfYear">Time of the year</label>
+        <br>
+        <input type="text" placeholder="Time of the year" id="timeOfYear">
+        <br>
+        <label for="Notes">Notes</label>
+        <br>
+        <input type="text" placeholder="Notes" id="Notes">
+        <br>
+        <button type="submit">Add a place</button>
+        </form>
+    </section>
+    <section id="Places">
+        <ul id="placeList"></ul>
+        <div class="details" id="placeDetails"></div>
+    </section>
+</body>
+</html>
